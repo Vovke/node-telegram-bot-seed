@@ -11,13 +11,11 @@ try {
 var bot = new TelegramBot(config.token, { polling: true });
 
 bot.on('message', function (msg) {
-	var text = msg.text ? msg.text : null,
+	var text = msg.text,
 	chatId = msg.chat.id;
 
 	switch(text) {
-		case null:
-		case "/start":
-		case "/help":
+		default:
 			bot.sendMessage(chatId, "Help information here");
 			break;
 	}

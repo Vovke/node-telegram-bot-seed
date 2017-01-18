@@ -1,4 +1,4 @@
-# Node.js Based telegram bot seed
+# Node.js based telegram bot seed
 Basic skeleton to start developing TelegramBot with javascript.
 Seriously, that's the simplest thing to start with.
 
@@ -7,7 +7,7 @@ Seriously, that's the simplest thing to start with.
 1. Have node.js installed on your machine
 2. Create new telegram bot by sending a message to @BotFather
 3. Pull this repo
-4. Create config.json file:
+4. Create `config.json` file:
 ```
 {
 	"token": "The token you received from BotFather"
@@ -15,3 +15,7 @@ Seriously, that's the simplest thing to start with.
 ```
 5. `npm install` all the dependencies
 6. Run your bot with `node bot`
+
+# Credits
+
+Inspired by poem bot https://github.com/CapacitorSet/poem-bot
